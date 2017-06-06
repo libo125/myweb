@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+    <style type="text/css">
+body{background: url(53.jpg) no-repeat ;background-size: cover;  }
+        div{ margin:0 auto ;width: 700px;}
+        table{width: 600px;}
+h1{font-family: 隶书;color: #7bcd40;}
+    </style>
+</head>
+<body>
+<div>
+<form name="forml" >
+    <h1 align="center">大学生旅游问卷调查</h1>
+    <table border="1" cellpadding="0" cellspacing="0">
+        <tr>
+
+            <td colspan="2" align="center">用户基本信息</td>
+        </tr><br>
+        <tr>
+
+            <td align="right">姓名</td>
+            <td><input type="text" name="textfield"></td>
+        </tr><br>
+        <tr>
+
+            <td align="right">出生日期:</td>
+            <td><input type="text" name="textfield2"></td>
+        </tr><br>
+        <tr>
+
+            <td align="right">性别:</td>
+            <td><input type="radio" name="radiobutton" value="radiobutton">男
+                <input type="radio" name="radiobutton" value="radiobutton">女
+            </td>
+        </tr><br>
+        <tr>
+
+            <td align="right">所在省:</td>
+            <td><select name="省" size="1">
+                <option value="1">北京市
+                <option value="2">天津市
+                <option value="3">上海市
+                <option value="4">重庆市
+                <option value="5">河北省
+                <option value="6">山西省
+                <option value="7">辽宁省
+                <option value="8">吉林省
+                <option value="9">黑龙江省
+                <option value="1">江苏省
+                <option value="1">浙江省
+                <option value="1">安徽省
+                <option value="1">福建省
+                <option value="1">江西省
+                <option value="1">山东省
+                <option value="1">河南省
+                <option value="1">湖北省
+                <option value="1">湖南省
+                <option value="1">广东省
+                <option value="1">海南省
+                <option value="1">四川省
+                <option value="1">贵州省
+                <option value="1">云南省
+                <option value="1">陕西省
+                <option value="1">甘肃省
+                <option value="1">青海省
+                <option value="1">台湾省
+                <option value="1">内蒙古
+                <option value="1">广西
+                <option value="1">西藏
+                <option value="1">宁夏
+                <option value="1">新疆
+                <option value="1">香港
+                <option value="1">澳门
+            </td>
+        </tr><br>
+        <tr>
+
+            <td align="right">详细地址:</td>
+            <td><input type="text" name="textlield3"></td>
+        </tr>
+        <tr>
+            <td align="right">邮箱:</td>
+            <td><input type="text" name="texefield4"> </td>
+        </tr>
+        <tr>
+            <td align="right">联系电话:</td>
+            <td><input type="text" name="textfield"></td>
+        </tr></table>
+
+        <br>
+    <p>(1)在您所在的城市，您一个月的花费大约有多少钱?</p><br>
+     <p>  <input type="radio" name="t1" value="800">800
+        <input type="radio" name="t1" value="900">900
+        <input type="radio" name="t1" value="1000">1000
+        <input type="radio" name="t1" value="1200">1200
+        <input type="radio" name="t1" value="1500">1500
+         <input type="radio" name="t1" value="1500以上">1500以上</p>
+<br>
+    <p>  (2)您花费的去向大致在那个方面呢？那您会不会找一些驴友一起旅游呢？</p><br>
+  <p> <input type="radio" name="y1" value="吃饭">吃饭
+    <input type="radio" name="y1" value="娱乐">娱乐
+    <input type="radio" name="y1" value="化妆品">化妆品
+      <input type="radio" name="y1" value="旅游">旅游</p>
+<br>
+    <p>(3)问您一个比较私人的问题，您有男（女）朋友吗？</p><br>
+    <P>
+        <input type="radio" name="u1" value="有">有
+        <input type="radio" name="u1" value="没有">没有
+    </P><br>
+    <p1> (4)您喜欢旅游吗？</p1><br>
+    <P>
+        <input type="radio" name="i1" value="喜欢">喜欢
+        <input type="radio" name="i1" value="不喜欢">不喜欢
+    </P><br>
+    <p>(5)如果你去旅游，你考虑最多的因素是什么？</p><br>
+    <P>
+        <input type="checkbox" name="checkbox" value="价格">价格
+        <input type="checkbox" name="checkbox" value="住宿">住宿
+        <input type="checkbox" name="checkbox" value="交通">交通
+        <input type="checkbox" name="checkbox" value="距离">距离
+        <input type="checkbox" name="checkbox" value="地理位置">地理位置
+    </P>
+    <br>
+    <p>
+      (6)您对我们的意见是什么呢？
+        <br><textarea name="cc" cols="40" rows="10"></textarea>
+    </p>
+    <p><input type="submit" name="e" value="提交">
+        <input type="reset" name="f" value="复位"></p>
+</form>
+</div>
+</body>
+</html>

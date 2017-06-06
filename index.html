@@ -1,0 +1,169 @@
+<!DOCTYPE html> <html>
+<head lang="en">
+
+	<title>杭电旅游网</title>
+    <meta charset="utf-8" />
+           	<p \>
+           	  <input align="center" name="wd" class="hd_in" id="gNewSearch" type="text" value="南京" autocomplete="off" style="width:400px;height:25px;">
+           	  <input class="hd_serbtn" type="submit" value="" style="background:url('images/button.png'); width:150px; height:50px;" >
+  			</p>
+           	<p align="left">&nbsp; </p>
+           	<p>&nbsp;</p>
+    <style type="text/css">
+        span {width:700px;
+            height:300px;
+            border:10px solid yellowgreen;
+            margin:5px;
+            font-size:15px;
+            float:left;
+            text-indent: 2em;border-radius:10px 20px/20px 30px;}
+        h2{font:normal bold 30px 隶书}
+        .y2{text-align: left;}
+        .y1{text-align: left;}
+        *{padding: 0;margin: 0;font-family: Arial,Verdana,Sans-serif}
+        nav{position:relative;top:0;
+            color:#ffffff;background-color:#30393a;font-family: Arial,Verdana,Sans-serif;
+            height: 60px;
+        }
+        nav ul{position: relative;}
+        nav ul li{list-style: none;float: left;width: 110px;text-align: center;line-height: 60px;}
+        nav ul li a{text-decoration: none;color: #ffffff;
+            display: block;
+        }
+        nav ul li:hover a{background-color: #F5F5F5; color: #30393a;}
+        body{background-image: url('虚化背景3.jpg');background-repeat: no-repeat; }
+        header{width:22%;color: #ffffff;position:relative;margin-left: 60%;margin-top:10%}
+        header h1{font-size: 50px;text-align: center}
+        p{text-align: center;font-size: 16px;}
+
+        form{position: absolute;margin: 40px;top:18%}
+        form h2{color: #ffffff;text-align: center;font-size: 40px;margin: 30px;}
+        input{margin: 10px;padding:10px;width:300px;height: 15px;border-radius:5px;font-size: 18px}
+        button{margin-left: 100px;margin-top:40px;width: 200px;height:40px;text-align: center;font-size: 22px;color:#ffffff;background-color:rgba(0,0,0,0.2);border-radius: 6px;}
+
+        .banner{width: 100%;height: 400px;position: relative;overflow: hidden;}
+        .imgList{position: absolute;width: 100%;}
+        .imgList li{display: none;}
+        .imgList .imgOn{display: inline;}
+        .banner img{height: 400px;width: 100%;}
+        h1{font-family: 华文隶书;color:brown;align-content: center;}
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+    	<li><a href=""> 首页</a></li>
+        <li><a href=""> 机票</a></li>
+        <li><a href=""> 酒店</a></li>
+        <li><a href=""> 火车票</a></li>
+        <li><a href=""> 汽车票</a></li>
+        <li><a href="#"> 登陆/注册</a></li>
+<li><a href="bd.html" target="_blank">问卷调查</a></li>
+        <li><a href="self.html" target="_blank">站长信息</a></li>
+    </ul>
+</nav>
+
+<script type="text/javascript">
+    var curIndex = 0;
+    var auto = setInterval(function () {
+        if(curIndex >= $(".imgList li").length -1){
+            curIndex = 0;
+        }
+        else
+            curIndex++;
+        changeTo(curIndex);
+    },2500);
+    function changeTo(num) {
+        $(".imgList").find("li").removeClass(".imgOn").hide().eq(num).fadeIn().addClass(".imgOn");
+    }
+</script>
+    <div class="banner">
+        <div class="imgList">
+            <ul>
+                <li class="imgOn"><a href=""><img  src="images/timg15.jpg"></a></li>
+                <li><a href=""><img  src="images/timg20.jpg"></a></li>
+                <li><a href=""><img  src="images/timg16.jpg"></a></li>
+            </ul>    
+        </div>    
+    </div>    
+</body>
+<nav>
+    <ul>
+        <li><a href="澳大利亚.html" target="_blank"> 澳大利亚</a></li>
+        <li><a href="daerwen.html" target="_blank">达尔文</a></li>
+    	<li><a href="#T1"> 南京</a></li>
+        <li><a href="#T2"> 北京</a></li>
+        <li><a href="#"> 柬埔寨</a></li>
+        <li><a href=""> 巴厘岛</a></li>
+        <li><a href=""> 厦门</a></li>
+        <li><a href=""> 大连</a></li>
+        <li><a href=""> 云南</a></li>
+        <li><a href=""> 西安</a></li>
+        <li><a href=""> 大理</a></li>
+        <li><a href=""> 夏威夷</a></li>
+        <li><a href=""> 重庆</a></li>
+
+    </ul>
+</nav>
+<nav>
+    <ul>
+        <li><a href=""> 丽江</a></li>
+        <li><a href=""> 鼓浪屿</a></li>
+        <li><a href=""> 亚龙湾</a></li>
+        <li><a href=""> 上海</a></li>
+        <li><a href=""> 香港</a></li>
+        <li><a href=""> 澳门</a></li>
+        <li><a href=""> 营口</a></li>
+        <li><a href=""> 保定</a></li>
+        <li><a href=""> 昌平</a></li>
+        <li><a href=""> 乌镇</a></li>
+        <li><a href=""> 哈尔滨</a></li>
+        <li><a href=""> 长春</a></li>
+        <li><a href=""> 合肥</a></li>
+        <li><a href=""> 广州</a></li>
+        <li><a href=""> 深圳</a></li>
+        </ul>
+</nav><br/>
+<h1 class="huiyuan_tit" style="margin-left:100px" align="center">景点图片</h1>
+<link type="text/css" href="css/lrtk.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/lrtk.js"></script>
+<br/>
+<div class="box">
+	<div class="picbox">
+		<ul class="piclist mainlist">
+			<li><a href="" target="_blank"><img src="images/timg1.jpg" width="200" height="300" /></a></li>
+			<li><a href="" target="_blank"><img src="images/timg3.jpg" width="200" height="300" /></a></li>
+			<li><a href="" target="_blank"><img src="images/timg4.jpg" width="200" height="300" /></a></li>
+			<li><a href="" target="_blank"><img src="images/timg6.jpg" width="200" height="300" /></a></li>
+            <li><a href="" target="_blank"><img src="images/timg5.jpg" width="200" height="300" /></a></li>
+			<li><a href="" target="_blank"><img src="images/timg7.jpg" width="200" height="300" /></a></li>
+			<li><a href="" target="_blank"><img src="images/timg8.jpg" width="200" height="300" /></a></li>
+
+		</ul>
+        <ul class="piclist swaplist"></ul>
+	</div>
+    <div class="og_prev"></div>
+    <div class="og_next"></div>
+</div>
+<h1>下面是部分景点的介绍</h1><br>
+<span class="y1">
+    <h2><a name="T1">南京</a></h2>
+<p class="y1">&nbsp;&nbsp;南京，简称“宁”，古称金陵、建康，是江苏省省会、副省级市、南京都市圈核心城市，国务院批复确定的中国东部地区重要的中心城市、
+    全国重要的科研教育基地和综合交通枢纽[1]  。南京地处中国东部地区、长江下游、濒江近海。全市下辖11个区，总面积6587.02平方
+    公里，2016年建成区面积1125.78平方公里，常住人口827万人，城镇人口678.14万人，城镇化率82%，是长三角地区及华东地区唯一的特
+    大城市。</p><br>
+    <img src="images/timg0.jpg" width="700px" height="140px">
+</span>
+<span class="y2">
+    <h2><a name="T2">北京</a></h2>
+    <P class="y2">&nbsp;&nbsp;北京是一座有着三千多年历史的古都，在不同的朝代有着不同的称谓，大致算起来有二十多个别称。北京主要景点有故宫，颐和园，八达岭，长城，天坛
+    等。下面主要介绍一下故宫：故宫位于北京市中心，也称“紫禁城”。这里曾居住过24个皇帝，是明清两代（公元1368～1911年）的皇宫，现辟为“故宫博物院”。
+        故宫的整个建筑金碧辉煌，庄严绚丽，被誉为世界五大宫之一（北京故宫、法国凡尔赛宫、英国白金汉宫、美国白宫、俄罗斯克里姆林宫）这就是北京故宫，一个古老的建筑。</P>
+    <img src="images/timg23.jpg" width="700px" height="140px">
+</span>
+</body>
+
+
+</html>
